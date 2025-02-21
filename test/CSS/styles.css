@@ -1,0 +1,125 @@
+/* Global Style */
+
+body {
+   background-color: burlywood;
+}
+
+img{
+   display: block;
+   margin: 0 auto;
+   width: 100%;
+}
+
+#container {
+   background-color: white;
+}
+
+/* Mobile Styles */
+
+@media (min-width: 320px) {
+    nav {
+      background-color: pink;
+      padding: 5px;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav li {
+display: block;
+height: 40px;
+line-height: 40px;
+background-color: palevioletred;
+color: white;
+font-size: 24px;
+text-decoration: none;
+margin-top: 5px;
+    }
+
+nav li a:hover {
+   background-color: cornsilk;
+}
+
+main{
+   padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+   text-align: center;
+   color: palevioletred;
+   text-shadow: 1px 1px 1px black;
+}
+
+footer{
+   text-align: center;
+   padding: 40px;
+   color: palevioletred;
+   text-shadow: 1px 1px 1px black;
+}
+
+}
+
+/* Tablet Style */
+
+@media (min-width: 768px) {
+   nav li {
+      display: inline-block;
+   }
+
+   nav li a {
+      width: 150px;
+      height: 50px;
+      line-height: 50px;
+      margin: 5px;
+   }
+
+   .yorkie_pics{
+      width: 50%;
+      border-radius: 10px;
+      box-shadow: 3px 3px 3px #000;
+   }
+
+}
+
+/* Desktop  Styles */
+
+@media (min-width: 1024px) {
+  #container {
+width: 65%;
+margin: 20px auto;
+border: 4px solid black;
+border-radius: 20px;
+  } 
+
+  Nav{
+   padding: 2px;
+   margin: 0;
+   
+   
+  }
+
+  nav li a {
+   background-color: palevioletred;
+  }
+
+  hr {
+   display: none;
+  }
+
+  #multi_col {
+   display:flex
+  }
+
+  .col{
+   margin: 20px;
+   padding: 20px;
+   border: 2px solid black;
+  }
+
+}
